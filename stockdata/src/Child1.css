@@ -1,0 +1,38 @@
+.stock-chart-container {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .company-controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .month-controls{
+    margin-top: 10px;
+  }
+  .tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  .circle-open {
+    fill: #b2df8a;
+  }
+  
+  .circle-close {
+    fill: #e41a1c;
+  }
+  
